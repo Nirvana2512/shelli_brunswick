@@ -328,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  /*background: rgba(0, 0, 0, 0.5);*/
+  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -2141,6 +2141,26 @@ section {
   padding-left: 5px;
   color: #bedae8;
   font-size: 14px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #454035;
+  border-bottom: 3px solid #454035;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
 }
 
 
